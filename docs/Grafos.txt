@@ -1,0 +1,9 @@
+Editor:
+    *CRUD
+    *Mover (vert, graf)
+    *Add vert,links
+    *Merge
+    *Zoom
+    *Edição de custos (vert, links)
+    
+    

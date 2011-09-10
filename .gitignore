@@ -13,3 +13,8 @@
 */logs/!index.html
 */cache/*
 */cache/!index.html
+
+## eclipse project files
+.settings/
+.buildpath
+.project

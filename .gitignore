@@ -1,4 +1,15 @@
-application/cache
-application/logs
-application/config/config.php
-application/config/database.php
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## codeigniter files to ignore
+*/config/config.php
+*/config/database.php
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html

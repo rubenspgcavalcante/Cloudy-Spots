@@ -10,6 +10,12 @@
 |
 */
 
+$hook['post_controller_constructor'] = array(
+                                'class'    => 'Authentication',
+                                'function' => 'check_logged',
+                                'filename' => 'Authentication.php',
+                                'filepath' => 'libraries',
+                                );
 
 
 /* End of file hooks.php */

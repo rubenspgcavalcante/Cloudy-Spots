@@ -6,3 +6,8 @@ Thanks for use or/and contribute!
 Enjoy!
 --
 Rubens Pinheiro
+
+#-- Set up the project --#
+Change the value of $config['enable_hooks'] to TRUE into
+application/config/config.php file, because we're using hooks in the login
+functionality.

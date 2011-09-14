@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+.content{
+    margin-top:100px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greenbox{
+	/* browsers without CSS3 */
+    background-color:#4CF67A;
+    
+    padding: 10px 15px;
+    border:1px solid black;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(0,207,59)),
+    color-stop(0.69, rgb(94,255,137))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(0,207,59) 0%,
+	    rgb(94,255,137) 69%
+	);
+	-webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    
+    /*inner shadows*/
+    box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
+    -webkit-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset
+    -moz-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset
+        
+}
+
+.sliderbox{
+	width: 550px;
+	height: 400px;
+	margin: 20px 30px;
+	float:left;
+}
+
+    .sliderbox .logo{
+	    margin-left: 24px;
+    }
+
+.loginbox{
+    width: 250px;
+    height: 400px;
+    margin: 20px 30px 20px 40px;
+    float:left;
+}

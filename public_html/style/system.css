@@ -44,6 +44,14 @@
 
     .sliderbox .logo{
 	    margin-left: 24px;
+	    margin-bottom: -30px;
+    }
+
+    .sliderbox .slider{
+        width: 400px;
+        height: 230px;
+        left: 70px;
+        border: 1px solid black;
     }
 
 .loginbox{

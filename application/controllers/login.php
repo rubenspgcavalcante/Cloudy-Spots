@@ -19,6 +19,10 @@ class Login extends CI_Controller {
         $this->load->library("authentication");
         $email = $this->input->post("email");
         $pass = $this->input->post("password");
+        if($this->input->post()==false){
+        	$this->load->view("login");
+        	return true;    
+        }
         $user = $this->authentication->check_user(array('email'=>$email), $pass);
         if($user == false){
         	$error = array(

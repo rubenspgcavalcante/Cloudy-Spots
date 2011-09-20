@@ -53,6 +53,52 @@
         left: 70px;
         border: 1px solid black;
     }
+    
+    .sliderbox .account{
+        float:left;
+        height: 40px;
+        padding-top: 30px;
+        margin-left:70px;
+    }
+	    .sliderbox .account span{
+	       font-weight: bold;
+	       font-size: 13px;
+	    }
+	    
+	    .sliderbox .account a{
+	       font-size:12px;
+	       text-decoration: none;
+	    }.sliderbox .account a:hover{
+	       text-decoration: underline;
+	    }
+	    
+    .sliderbox .social{
+        float:left;
+        height: 40px;
+        padding-top: 5px;
+        margin-left:20px;
+        width:260px;
+    }
+    
+    .sliderbox .social{
+        text-align: center;
+    
+    }
+    
+	    .sliderbox .social span{
+	        font-size: 12px;
+	        font-weight: bold;
+	    }
+	    
+        .sliderbox .social ul li{
+            display: inline;
+            margin-left:6px;
+        }
+        
+        .sliderbox .social .social-icon{
+            margin-top: 5px;
+            position: relative;
+        }
 
 .loginbox{
     width: 250px;

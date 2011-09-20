@@ -24,26 +24,26 @@
                     <a href="#">create account</a>
                 </div>
                 <div class="social">
-                    <span>Contact trhe developer</span>
+                    <span>Contact the developer</span>
                     <ul>
-                        <li class="social-icon">
-                            <a href="https://plus.google.com/111824312767467695973/posts//p/pub?hl=pt-BR">
-                                <img src="<?php echo base_url(); ?>images/social/google.png" alt="google" />
+                        <li>
+                            <a href="https://plus.google.com/111824312767467695973/posts//p/pub?hl=pt-BR" target="blank">
+                                <img class="social-icon" id="google" src="<?php echo base_url(); ?>images/social/google.png" alt="google" />
                             </a>
                         </li>
-                        <li class="social-icon">
-                            <a href="http://twitter.com/#!/rubenscavalcan">
-                                <img src="<?php echo base_url(); ?>images/social/twitter.png" alt="twitter" />
+                        <li>
+                            <a href="http://twitter.com/#!/rubenscavalcan" target="blank">
+                                <img class="social-icon" id="twitter" src="<?php echo base_url(); ?>images/social/twitter.png" alt="twitter" />
                             </a>
                         </li>
-                        <li class="social-icon">
-                            <a href="http://www.facebook.com/rubens.pinheiro">
-                                <img src="<?php echo base_url(); ?>images/social/facebook.png" alt="facebook" />
+                        <li>
+                            <a href="http://www.facebook.com/rubens.pinheiro" target="blank">
+                                <img class="social-icon" id="facebook" src="<?php echo base_url(); ?>images/social/facebook.png" alt="facebook" />
                             </a>
                         </li>
-                        <li class="social-icon">
-                            <a hreflang="http://www.linkedin.com/profile/view?id=83208136&trk=tab_pro">
-                                <img src="<?php echo base_url(); ?>images/social/linkedin.png" alt="linkedin" />
+                        <li>
+                            <a href="http://www.linkedin.com/profile/view?id=83208136&trk=tab_pro" target="blank">
+                                <img class="social-icon" id="linkedin" src="<?php echo base_url(); ?>images/social/linkedin.png" alt="linkedin" />
                             </a>
                         </li>
                     </ul>

@@ -1,4 +1,9 @@
 $(document).ready(function(){
+	
+/***************************************
+* 			Login page efects	
+*	
+***************************************/	
 	//Slider
 	$(window).load(function() {
 	    $('#slider').nivoSlider({
@@ -10,5 +15,16 @@ $(document).ready(function(){
 	    });
 	});
 	
-	
+	//Social icon efect
+	$(".social-icon").mouseover(function(element){
+		$(element.target).animate({
+			"bottom":"+=5px",
+		}, "fast");
+		
+	});
+	$(".social-icon").mouseout(function(element){
+		$(element.target).animate({
+			"bottom":"-=5px",
+		}, "slow");
+	});
 });

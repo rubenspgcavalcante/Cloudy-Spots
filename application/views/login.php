@@ -3,7 +3,7 @@
 <head>
     <title>Cloudy Spots</title>
 	<meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>style/reset.css" />
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>style/normalize.css" />
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>js/nivo-slider/nivo-slider.css" media="screen" />
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>js/nivo-slider/themes/default/default.css" media="screen" />
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>style/general.css" />
@@ -55,21 +55,17 @@
     
     
 	    <div class="loginbox greenbox">
-	       <h1>Login</h1>
-	       <?php if(!empty($msg))echo $msg; ?>
+	       <h1><img src="<?php echo base_url(); ?>images/login.png" alt="Login" /></h1>
+	       <?php if(!empty($msg))echo "<h2 class='error'>".$msg."</h2>"; ?>
 	        <form name="login" method="POST" action="#">
 	            <label for="email">email</label>
 	            <input id="email" type="text" name="email" value="" />
 	            <label for="password">password</label>
 	            <input id="password" type="password" name="password" value="" />
-	            <input type="submit" value="ok" />
-	            <input type="reset" value="cancel" />
+	            <input type="submit" value="ok" id="submit"/>
+	            <input type="reset" value="cancel" id="cancel" />
 	        </form>
-	    </div>
-	    
-	    <div class="black-table">
-	       <h1>Loren Ipsun</h1>
-	       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus elementum erat nec porta. Nulla quis magna nibh. Sed interdum sollicitudin enim non mollis. Sed faucibus nibh eleifend massa condimentum interdum. Proin risus ligula, malesuada non suscipit ac, tincidunt quis lectus. Mauris vitae arcu non dolor consequat iaculis at vel est. Morbi hendrerit metus id purus mattis suscipit. Nam eu massa libero. Aliquam tincidunt enim a lectus placerat a volutpat risus viverra. Proin rutrum, leo pellentesque rutrum dignissim, justo lorem ultricies urna, et porta nisl risus eu enim. Donec eget sapien lectus, nec varius nibh. Etiam egestas justo a est porta interdum. Pellentesque ac libero vel lorem scelerisque condimentum ac non magna. </p>
+	        <a href="#" id="forgot">Forgot my password</a>
 	    </div>
 	    
     </div>

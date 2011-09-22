@@ -17,14 +17,18 @@ $(document).ready(function(){
 	
 	//Social icon efect
 	$(".social-icon").mouseover(function(element){
+		//$(element.target).css({ "bottom" : 0});
+		$(element.target).stop(false,true);
 		$(element.target).animate({
 			"bottom":"+=5px",
-		}, "fast");
-		
+		}, { duration: 100, queue: false} );
+		//$(element.target).stop(false,true);
 	});
 	$(".social-icon").mouseout(function(element){
+		$(element.target).stop(false,true);
 		$(element.target).animate({
 			"bottom":"-=5px",
-		}, "slow");
+		}, {duration: "slow", queue: false});
+	
 	});
 });

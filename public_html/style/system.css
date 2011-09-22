@@ -1,40 +1,4 @@
 @CHARSET "UTF-8";
-.content{
-    margin-top:100px;
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.greenbox{
-	/* browsers without CSS3 */
-    background-color:#4CF67A;
-    
-    padding: 10px 15px;
-    border:1px solid black;
-    background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0, rgb(0,207,59)),
-    color-stop(0.69, rgb(94,255,137))
-	);
-	background-image: -moz-linear-gradient(
-	    center bottom,
-	    rgb(0,207,59) 0%,
-	    rgb(94,255,137) 69%
-	);
-	-webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    
-    /*inner shadows*/
-    box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
-    -webkit-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset
-    -moz-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset
-        
-}
-
 .sliderbox{
 	width: 550px;
 	height: 400px;
@@ -89,16 +53,24 @@
 	        font-size: 12px;
 	        font-weight: bold;
 	    }
-	    
-        .sliderbox .social ul li{
-            display: inline;
-            margin-left:6px;
+
+        .sliderbox ul{
+            margin:0;
+            padding:0;
         }
-        
-        .sliderbox .social .social-icon{
-            margin-top: 5px;
-            position: relative;
-        }
+	        .sliderbox .social ul li{
+	            display: inline;
+	            margin-left:6px;
+	        }
+	        
+	        .sliderbox .social a{
+	            text-decoration: none;
+	        }
+	        
+	        .sliderbox .social .social-icon{
+	            margin-top: 5px;
+	            position: relative;
+	        }
 
 .loginbox{
     width: 250px;
@@ -106,3 +78,63 @@
     margin: 20px 30px 20px 40px;
     float:left;
 }
+    .loginbox h1{
+        margin-top:10px;
+        text-align: center; 
+        font-size: 38px;
+        font-weight: bold;
+        color: #0DFC4D;
+        
+	    text-shadow: 0.01em 0.01em 0.01em black;
+	    -webkit-text-shadow: 0.01em 0.01em 0.01em black;
+	    -moz-text-shadow: 0.01em 0.01em 0.01em black;
+    
+    }
+    
+    .loginbox .error{
+        color:#C20000;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 12px;
+        margin-top: -20px;
+        position: absolute;
+    }
+    
+    .loginbox form{
+        margin-left:23px;
+        margin-top:20px;
+        
+    }
+    
+        .loginbox form label{
+	        font-weight: bold;
+	        font-size: 12px;
+	        font-family: sans-serif;
+	        color: #404040;
+	        text-shadow: 0.02em 0.02em 0.1em white;
+	        -webkit-text-shadow: 0.02em 0.02em 0.1em white;
+	        -moz-text-shadow: 0.02em 0.02em 0.1em white;
+        }
+    
+        .loginbox #email, .loginbox #password{
+            width: 190px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+        
+        .loginbox #submit, .loginbox #cancel{
+            margin-right:20px;
+            width: 88px;
+            margin-bottom: 15px;
+         }
+         
+    .loginbox #forgot{
+        font-size:14px;
+        text-decoration: none;
+        margin-left:22px;
+        }.loginbox #forgot:hover{
+           text-decoration: underline;
+        }
+    
+    

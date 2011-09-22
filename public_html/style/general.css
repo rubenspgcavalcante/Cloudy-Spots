@@ -9,3 +9,82 @@ p{
     font-size: 13px;
 }
 
+input[type=text],input[type=password]{
+	border-radius: 3px 3px 3px 3px;
+	font: 13px Arial,sans-serif black;
+	background-color: white;
+	border: medium none !important;
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+	color: black;
+	height: 20px;
+	padding: 5px;
+	display: block;
+	font-weight: 14px;
+}
+
+.content{
+    margin-top:100px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greenbox{
+    /* browsers without CSS3 */
+    background-color:#4CF67A;
+    
+    padding: 10px 15px;
+    border:1px solid black;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(0,207,59)),
+    color-stop(0.69, rgb(94,255,137))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(0,207,59) 0%,
+        rgb(94,255,137) 69%
+    );
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    
+    /*inner shadows*/
+    box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
+    -webkit-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
+    -moz-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
+        
+}
+
+button, input[type=button], input[type=submit], input[type=reset]{
+    border: 1px solid #636363;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    box-shadow: -2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
+    -webkit-box-shadow: -2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
+    -moz-box-shadow: --2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
+    
+	background-image: linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
+	background-image: -o-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
+	background-image: -moz-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
+	background-image: -webkit-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
+	background-image: -ms-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
+	
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.26, #ADADAD),
+	    color-stop(0.63, #CCCCCC)
+	);
+	
+	color: #636363;
+	text-shadow: 1.5px 0.5px 0 #CCC;
+    -webkit-text-shadow: 1.5px 0.5px 0 #CCC;
+    -moz-text-shadow: 1.5px 0.5px 0 #CCC;
+	
+}

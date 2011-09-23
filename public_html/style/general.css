@@ -15,11 +15,13 @@ input[type=text],input[type=password]{
 	background-color: white;
 	border: medium none !important;
 	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-	color: black;
+	color: #444;
 	height: 20px;
 	padding: 5px;
 	display: block;
 	font-weight: 14px;
+}input[type=text]:focus,input[type=password]:focus{
+	color:black;
 }
 
 .content{
@@ -87,4 +89,26 @@ button, input[type=button], input[type=submit], input[type=reset]{
     -webkit-text-shadow: 1.5px 0.5px 0 #CCC;
     -moz-text-shadow: 1.5px 0.5px 0 #CCC;
 	
+}button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
+    text-shadow: 1.5px 0.5px 0 #FFF;
+    -webkit-text-shadow: 1.5px 0.5px 0 #FFF;
+    -moz-text-shadow: 1.5px 0.5px 0 #FFF;
+    color:black;
+    border: 1px solid black;
+
+}button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active{
+    background-image: linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+    background-image: -o-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+    background-image: -moz-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+    background-image: -webkit-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+    background-image: -ms-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.26, #BEBEBE),
+        color-stop(0.63, #DDDDDD)
+    );
+
 }

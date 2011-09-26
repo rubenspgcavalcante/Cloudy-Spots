@@ -11,6 +11,14 @@
 	    margin-bottom: -30px;
     }
 
+    .sliderbox #beta{
+        margin-left: -16px;
+        margin-top: 59px;
+        position: absolute;
+        font-size: 12px;
+        color: #3A5FFE;
+    }
+    
     .sliderbox .slider{
         width: 400px;
         height: 230px;

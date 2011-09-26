@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Cloudy Spots</title>
-	<meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>style/normalize.css" />
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>js/nivo-slider/nivo-slider.css" media="screen" />
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>js/nivo-slider/themes/default/default.css" media="screen" />
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>style/general.css" />
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>style/system.css" />
-</head>
-
-<body>
     <div class="content">
         <div class="sliderbox greenbox">
-            <img class="logo" src="<?php echo base_url(); ?>images/logo.png" alt="Cloudy Spots"/>
+            <div class="logo-top">
+                <img class="logo" src="<?php echo base_url(); ?>images/logo.png" alt="Cloudy Spots"/>
+                <span id="beta">beta</span>
+            </div>
             <div id="slider" class="theme-default slider">
                 <img alt="slide 1" src="<?php echo base_url(); ?>images/slides/slide1.png">
                 <img alt="slide 2" src="<?php echo base_url(); ?>images/slides/slide2.png">
@@ -69,9 +59,3 @@
 	    </div>
 	    
     </div>
-<!-- Javascript load -->
-<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>/js/nivo-slider/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>/js/functions.js"></script>
-</body>
-</html>

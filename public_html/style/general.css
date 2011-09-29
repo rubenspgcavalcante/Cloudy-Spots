@@ -1,17 +1,24 @@
 @CHARSET "UTF-8";
-body{
-    background-image: url("../images/bg.png");
-}
-p,span,h1,h2,h3,h4,h5,h6{
-    font-family: sans-serif;
-}
-p{
-    font-size: 13px;
+
+body {
+	background-image: url("../images/bg.png");
 }
 
-input[type=text],input[type=password]{
+p,span,h1,h2,h3,h4,h5,h6 {
+	font-family: sans-serif;
+}
+
+p {
+	font-size: 13px;
+}
+
+ul {
+	
+}
+
+input[type=text],input[type=password] {
 	border-radius: 3px 3px 3px 3px;
-	font: 13px Arial,sans-serif black;
+	font: 13px Arial, sans-serif black;
 	background-color: white;
 	border: medium none !important;
 	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2) inset;
@@ -20,95 +27,207 @@ input[type=text],input[type=password]{
 	padding: 5px;
 	display: block;
 	font-weight: 14px;
-}input[type=text]:focus,input[type=password]:focus{
-	color:black;
 }
 
-.content{
-    margin-top:100px;
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
+input[type=text]:focus,input[type=password]:focus {
+	color: black;
 }
 
-.greenbox{
-    /* browsers without CSS3 */
-    background-color:#4CF67A;
-    
-    padding: 10px 15px;
-    border:1px solid black;
-    background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0, rgb(0,207,59)),
-    color-stop(0.69, rgb(94,255,137))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(0,207,59) 0%,
-        rgb(94,255,137) 69%
-    );
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    
-    /*inner shadows*/
-    box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
-    -webkit-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
-    -moz-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
-        
+.content {
+	margin-top: 100px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-button, input[type=button], input[type=submit], input[type=reset]{
-    border: 1px solid #636363;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    
-    box-shadow: -2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
-    -webkit-box-shadow: -2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
-    -moz-box-shadow: --2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
-    
+.greenbox { /* browsers without CSS3 */
+	background-color: #4CF67A;
+	padding: 10px 15px;
+	border: 1px solid black;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(0, 207
+		, 59) ), color-stop(0.69, rgb(94, 255, 137) ) );
+	background-image: -moz-linear-gradient(center bottom, rgb(0, 207, 59) 0%,
+		rgb(94, 255, 137) 69% );
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	/*inner shadows*/
+	box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black inset;
+	-webkit-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black
+		inset;
+	-moz-box-shadow: 1px 1px 2px white inset, -0.05em -0.06em 1px black
+		inset;
+}
+
+button,input[type=button],input[type=submit],input[type=reset] {
+	border: 1px solid #636363;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: -2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
+	-webkit-box-shadow: -2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
+	-moz-box-shadow: - -2px 3px 1px #D1D0CF inset, 1px -1px 1px gray inset;
 	background-image: linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
 	background-image: -o-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
 	background-image: -moz-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
 	background-image: -webkit-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
 	background-image: -ms-linear-gradient(bottom, #ADADAD 26%, #CCCCCC 63%);
-	
-	background-image: -webkit-gradient(
-	    linear,
-	    left bottom,
-	    left top,
-	    color-stop(0.26, #ADADAD),
-	    color-stop(0.63, #CCCCCC)
-	);
-	
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.26, #ADADAD
+		), color-stop(0.63, #CCCCCC) );
 	color: #636363;
 	text-shadow: 1.5px 0.5px 0 #CCC;
-    -webkit-text-shadow: 1.5px 0.5px 0 #CCC;
-    -moz-text-shadow: 1.5px 0.5px 0 #CCC;
-	
-}button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
-    text-shadow: 1.5px 0.5px 0 #FFF;
-    -webkit-text-shadow: 1.5px 0.5px 0 #FFF;
-    -moz-text-shadow: 1.5px 0.5px 0 #FFF;
-    color:black;
-    border: 1px solid black;
-
-}button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active{
-    background-image: linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
-    background-image: -o-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
-    background-image: -moz-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
-    background-image: -webkit-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
-    background-image: -ms-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
-    
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.26, #BEBEBE),
-        color-stop(0.63, #DDDDDD)
-    );
-
+	-webkit-text-shadow: 1.5px 0.5px 0 #CCC;
+	-moz-text-shadow: 1.5px 0.5px 0 #CCC;
 }
+
+button:hover,input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover
+	{
+	text-shadow: 1.5px 0.5px 0 #FFF;
+	-webkit-text-shadow: 1.5px 0.5px 0 #FFF;
+	-moz-text-shadow: 1.5px 0.5px 0 #FFF;
+	color: black;
+	border: 1px solid black;
+}
+
+button:active,input[type=button]:active,input[type=submit]:active,input[type=reset]:active
+	{
+	background-image: linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+	background-image: -o-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+	background-image: -moz-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+	background-image: -webkit-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+	background-image: -ms-linear-gradient(bottom, #BEBEBE 26%, #DDDDDD 63%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.26, #BEBEBE), color-stop(0.63, #DDDDDD) );
+}
+
+.tiny-bar{
+ 	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 3px;
+    height: 29px;
+}
+
+/******************************* Dropdown CSS *********************************/
+
+/* 
+   Dropdown LEVEL ONE
+*/
+#page-wrap {
+	width: 800px;
+	margin: 25px auto;
+}
+
+ul.dropdown {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding-left:20px;
+}
+.dropdown ul li:hover{
+   	background-color: #0EA137;
+}
+
+ul.dropdown li {
+	font-weight: bold;
+	padding:3px;
+	float: left;
+	font-size:12px;
+	margin-right:20px;
+	zoom: 1;
+    text-shadow: 0.1em 0.08em 0.08em white;
+    -webkit-text-shadow: 0.1em 0.08em 0.08em white;
+    -moz-text-shadow: 0.1em 0.08em 0.08em white;
+}
+
+ul.dropdown a{
+    text-decoration:none;	
+}
+
+ul.dropdown a:hover {
+	color: #000;
+}
+
+ul.dropdown a:active {
+	color: #ffa500;
+}
+
+ul.dropdown li a {
+	display: block;
+	padding: 4px 8px;
+	color: #222;
+}
+
+ul.dropdown li:last-child a {
+	border-right: none; /* Doesn't work in IE */
+}
+
+ul.dropdown li.hover,ul.dropdown li:hover {
+	background: #0BD444;
+	color: black;
+	position: relative;
+	
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+    box-shadow: 0px 0px 2px #464846 inset;
+    -webkit-box-shadow: 0px 0px 3px gray inset;
+    -moz-box-shadow: - 0px 0px 3px gray inset;
+}
+
+ul.dropdown li.hover a {
+	color: black;
+	
+}
+
+/* 
+    Dropdown LEVEL TWO
+*/
+ul.dropdown ul.sub_menu {
+	list-style: none;
+	width: 150px;
+	visibility: hidden;
+	position: absolute;
+	top: 17px !important;
+	left:0;
+	right:0 !important;
+	padding:5px 5px !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;	
+	border-top:none;
+}
+
+ul.dropdown ul li {
+	font-weight: normal;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+	float: none;
+	margin:0px;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+}
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a {
+	border-right: none;
+	width: 100%;
+	display: inline-block;
+}
+
+/* 
+    Dropdown LEVEL THREE
+*/
+ul.dropdown ul ul {
+	list-style: none;
+	left: 100%;
+	top: 0;
+}
+
+ul.dropdown li:hover>ul {
+	visibility: visible;
+}
+
+
+/***************************** End Dropdown CSS *******************************/

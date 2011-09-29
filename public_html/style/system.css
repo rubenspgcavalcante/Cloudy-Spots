@@ -1,4 +1,9 @@
 @CHARSET "UTF-8";
+/********************
+*
+* Login page
+*
+*********************/
 .sliderbox{
 	width: 550px;
 	height: 400px;
@@ -145,4 +150,18 @@
            text-decoration: underline;
         }
     
+    /********************
+    *
+    * Edition page
+    *
+    *********************/
     
+    #main_menu #main-lblock{
+        float:left;
+    
+    }
+    
+    #main_menu #main-rblock{
+        float:right;
+    
+    }

@@ -40,39 +40,47 @@
         
     </div>
     
-    <div class="greenbox tiny-bar" id="graffle-menu">
-        <ul class="dropdown">
-            <li>
-                <a href="#">Vertex</a>
-                <ul class="greenbox sub_menu" >
-                    <li>Add</li>
-                    <li>Remove</li>
-                </ul>
-            </li>
-            <li>    
-                <a href="#">Links</a>
-                <ul class="greenbox sub_menu" >
-                    <li>Add</li>
-                    <li>Remove</li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Algorithms</a>
-                <ul class="greenbox sub_menu" >
-                    <li>Teste 1</li>
-                    <li>Teste 2</li>
-                    <li>Teste 3</li>
-                    <li>Teste 4</li>
-                    <li>Teste 5</li>
-                </ul>
-            </li>
-            
-        </ul>    
-    </div>
-    
-    </div>
-    
-    <div id="editor-stance">
-    
-    </div>
+	<div class="central-block">    
+	    <div class="greenbox tiny-bar" id="graffle-menu">
+	        <ul class="dropdown">
+	            <li>
+	                <a href="#">Vertex</a>
+	                <ul class="greenbox sub_menu" >
+	                    <li>Add</li>
+	                    <li>Remove</li>
+	                </ul>
+	            </li>
+	            <li>    
+	                <a href="#">Links</a>
+	                <ul class="greenbox sub_menu" >
+	                    <li>Add</li>
+	                    <li>Remove</li>
+	                </ul>
+	            </li>
+	            <li>
+	                <a href="#">Algorithms</a>
+	                <ul class="greenbox sub_menu" >
+	                    <li>Teste 1</li>
+	                    <li>Teste 2</li>
+	                    <li>Teste 3</li>
+	                    <li>Teste 4</li>
+	                    <li>Teste 5</li>
+	                </ul>
+	            </li>
+	            
+	        </ul>    
+	    </div>
+        <div id="editor-stance">
+        
+        </div>
+        
+  	    
+    </div>   
+    <div class="greenbox footer">
+        <img alt="CloudySpots" src="<?php echo base_url();?>/images/smalllogo.png" id="smalllogo"/>
+        <span>Powered By: </span>
+        <a href="http://www.raphaeljs.com/" target="blank" title="Raphael Library"><img alt="raphael lib" class="logo" src="<?php echo base_url();?>/images/raphael.png" /></a>
+        <a href="http://www.codeigniter.com/" target="blank" title="Codeigniter"><img alt="Codeigniter" class="logo" src="<?php echo base_url();?>/images/codeigniter.png" /></a>
+        <a href="http://www.jquery.com" target="blank" title="jQuery"><img alt="jQuery" class="logo" src="<?php echo base_url();?>/images/jquery.png" /></a>
+    </div> 
 </div>

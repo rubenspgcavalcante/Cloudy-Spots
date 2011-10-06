@@ -29,4 +29,34 @@ $(document).ready(function(){
 		}, {duration: "slow", queue: false});
 	
 	});
+
+
+/***************************************
+* 			Editor Page	
+*	
+***************************************/	
+
+function render(){
+    var g = new Graph();
+    
+    g.addEdge("1", "2",st = { directed: true});
+    g.addEdge("2", "1",st = { directed: true});
+    g.addEdge("strawberry", "tomato");
+     
+    g.addEdge("tomato", "apple");
+    g.addEdge("tomato", "kiwi");
+     
+    g.addEdge("cherry", "apple");
+    g.addEdge("cherry", "kiwi");
+     
+    var layouter = new Graph.Layout.Spring(g);
+    layouter.layout();
+     
+    var renderer = new Graph.Renderer.Raphael('editor-stance', g, 768, 560);
+    renderer.draw();
+	
+	}
+	
+	render();
+
 });

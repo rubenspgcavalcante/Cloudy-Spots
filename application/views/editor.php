@@ -82,5 +82,5 @@
         <a href="http://www.raphaeljs.com/" target="blank" title="Raphael Library"><img alt="raphael lib" class="logo" src="<?php echo base_url();?>/images/raphael.png" /></a>
         <a href="http://www.codeigniter.com/" target="blank" title="Codeigniter"><img alt="Codeigniter" class="logo" src="<?php echo base_url();?>/images/codeigniter.png" /></a>
         <a href="http://www.jquery.com" target="blank" title="jQuery"><img alt="jQuery" class="logo" src="<?php echo base_url();?>/images/jquery.png" /></a>
-    </div> 
+    </div>
 </div>

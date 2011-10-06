@@ -7,8 +7,6 @@
 Thumbs.db
 
 ## codeigniter files to ignore
-*/config/config.php
-*/config/database.php
 */config/development
 */logs/log-*.php
 */logs/!index.html

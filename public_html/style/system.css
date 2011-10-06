@@ -163,5 +163,67 @@
     
     #main_menu #main-rblock{
         float:right;
+        padding-top: 4px;
+        margin-right: 25px;
+    }
+    
+    #main_menu #main-rblock span{
+        font-weight: bold;
+	    padding:3px;
+	    float: left;
+	    font-size:12px;
+	    margin-right:20px;
+
+    }
+    
+    #main_menu #main-rblock #user-name{
+        color:#585754;
+        margin-left:-20px;
+    }
+    
+    #main_menu #main-rblock #config img{
+        margin-left:-20px;
+        position: absolute;
+        margin-top: 3px;
+    }
+    
+    #main_menu #main-rblock #logout{
+        margin-left: 10px;
+        font-weight: bold;
+        font-size:12px;
+    }
+    
+    #files, #editor-stance{
+        background-color:white;
+        height: 600px;
+        width: 250px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-right:6px;
+        float:left;
+        
+	    -webkit-border-radius: 6px;
+	    -moz-border-radius: 6px;
+	    border-radius: 6px;
+	    
+	    box-shadow: 0px 0px 7px #676663 inset;
+	    -webkit-box-shadow: 0px 0px 2px #464846 inset;
+	    -moz-box-shadow: - 0px 0px 2px #464846 inset;
+        
+    }
+    
+    #graffle-menu{
+        float:left;
+        width: 760px;
+        margin-top: 3px;
+    }
+    
+        #graffle-menu .dropdown{
+            float:right;
+        }
+        
+    #editor-stance{
+        height: 560px;
+        width: 769px;
     
     }

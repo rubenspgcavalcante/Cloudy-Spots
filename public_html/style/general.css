@@ -34,7 +34,7 @@ input[type=text]:focus,input[type=password]:focus {
 }
 
 .content {
-	margin-top: 100px;
+	margin-top: 60px;
 	width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
@@ -123,10 +123,6 @@ ul.dropdown {
 	margin: 0;
 	padding-left:20px;
 }
-.dropdown ul li:hover{
-   	background-color: #0EA137;
-}
-
 ul.dropdown li {
 	font-weight: bold;
 	padding:3px;
@@ -134,9 +130,10 @@ ul.dropdown li {
 	font-size:12px;
 	margin-right:20px;
 	zoom: 1;
+} ul.dropdown li:hover{
     text-shadow: 0.1em 0.08em 0.08em white;
     -webkit-text-shadow: 0.1em 0.08em 0.08em white;
-    -moz-text-shadow: 0.1em 0.08em 0.08em white;
+    -moz-text-shadow: 0.1em 0.08em 0.08em white;	
 }
 
 ul.dropdown a{
@@ -148,7 +145,7 @@ ul.dropdown a:hover {
 }
 
 ul.dropdown a:active {
-	color: #ffa500;
+	color: #0DA036;
 }
 
 ul.dropdown li a {
@@ -157,12 +154,8 @@ ul.dropdown li a {
 	color: #222;
 }
 
-ul.dropdown li:last-child a {
-	border-right: none; /* Doesn't work in IE */
-}
-
 ul.dropdown li.hover,ul.dropdown li:hover {
-	background: #38EB69;
+	background-color:#09D342;
 	color: black;
 	position: relative;
 	
@@ -209,6 +202,9 @@ ul.dropdown ul li {
 	border: none;
 	font-weight: bold;
 	font-size: 11px;
+	text-shadow: none;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;    
 }
 
 /* IE 6 & 7 Needs Inline Block */

@@ -2,7 +2,7 @@
         <div class="sliderbox greenbox">
             <div class="logo-top">
                 <img class="logo" src="<?php echo base_url(); ?>images/logo.png" alt="Cloudy Spots"/>
-                <span id="beta">beta</span>
+                <span id="version">alfa 0.1</span>
             </div>
             <div id="slider" class="theme-default slider">
                 <img alt="slide 1" src="<?php echo base_url(); ?>images/slides/slide1.png">

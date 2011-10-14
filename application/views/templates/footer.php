@@ -7,6 +7,7 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>js/dracula/dracula_graph.js" ></script>
 		
 		<script type="text/javascript" src="<?php echo base_url(); ?>js/dropdown.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>js/cloudy-spots.lib.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>js/functions.js"></script>
 	</body>
 </html>

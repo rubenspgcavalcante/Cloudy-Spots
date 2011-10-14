@@ -12,8 +12,12 @@ p {
 	font-size: 13px;
 }
 
-ul {
-	
+svg:not(:root){
+	position: static !important;
+}
+
+svg ellipse .select{
+    cursor: crosshair !important;	
 }
 
 input[type=text],input[type=password] {

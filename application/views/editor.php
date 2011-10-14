@@ -44,17 +44,17 @@
 	    <div class="greenbox tiny-bar" id="graffle-menu">
 	        <ul class="dropdown">
 	            <li>
-	                <a href="#">Vertex</a>
+	                <a href="#">Nodes</a>
 	                <ul class="greenbox sub_menu" >
-	                    <li>Add</li>
-	                    <li>Remove</li>
+	                    <li id="addNode">Add</li>
+	                    <li id="removeNode">Remove</li>
 	                </ul>
 	            </li>
 	            <li>    
 	                <a href="#">Links</a>
 	                <ul class="greenbox sub_menu" >
-	                    <li>Add</li>
-	                    <li>Remove</li>
+	                    <li id="addLink">Add</li>
+	                    <li id="removeLink">Remove</li>
 	                </ul>
 	            </li>
 	            <li>

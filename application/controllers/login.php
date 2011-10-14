@@ -45,7 +45,7 @@ class Login extends Cloudy_Controller {
         	$error = array(
         	           "msg" => "Email or password incorrect",
         	           );
-        	$this->load->view("login", $error);
+        	$this->_render("login", $error);
         	$this->destroy_session();
         	return false;
         }
